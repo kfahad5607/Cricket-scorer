@@ -1,0 +1,300 @@
+/* Global Styles */
+:root {
+  --purple: #5252a5;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+
+/* cricket responsive font css */
+@media screen and (min-width: 1050px) {
+  .border-left {
+    border-left: 10px solid red !important;
+  }
+
+  .text-1 {
+    font-size: 20px !important;
+    /* color: rgb(224, 104, 35); */
+  }
+
+  .text-2 {
+    font-size: 22px;
+    /* color: rgb(255, 0, 157); */
+  }
+
+  .text-3 {
+    font-size: 18px !important;
+    color: #48494a !important;
+    font-weight: normal !important;
+  }
+
+  .table-sm th {
+    padding: 1rem;
+  }
+
+  .table-sm td {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .border-left {
+    border-left: 10px solid red !important;
+  }
+
+  .text-1 {
+    font-size: 18px !important;
+    /* color: rgb(24, 236, 41); */
+  }
+
+  .text-2 {
+    font-size: 20px;
+    /* color: rgb(255, 0, 157); */
+  }
+
+  .text-3 {
+    font-size: 16px !important;
+    color: #48494a !important;
+    font-weight: normal !important;
+  }
+
+  .table-sm th {
+    padding: 1rem;
+  }
+
+  .table-sm td {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .border-left {
+    border-left: 8px solid red !important;
+  }
+
+  .text-1 {
+    font-size: 18px !important;
+    /* color: red; */
+  }
+
+  .text-2 {
+    font-size: 18px;
+    /* color: rgb(255, 0, 157); */
+  }
+
+  .text-3 {
+    font-size: 14px !important;
+    color: #48494a !important;
+    font-weight: normal !important;
+  }
+
+}
+
+
+.border-rounded {
+  border-collapse: collapse;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+h1 {
+  /* display: block; */
+  font-size: 2.2em;
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.heading {
+  background-color: var(--purple);
+  padding: 10px;
+  color: white;
+}
+
+.player-name {
+  color: var(--purple);
+  font-weight: 600;
+}
+
+/* box shadow */
+.box-shadow {
+  box-shadow: 5px 5px 10px -5px #bdbdbd;
+}
+
+/* Circular button css */
+
+.btn-circular.btn-md {
+  color: black;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--purple);
+  padding: 7px 10px;
+  /* font-size: 12px; */
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* Circular button for theme */
+.btn-theme.btn-theme-md {
+  color: black;
+  width: 50px;
+  height: 50px;
+  /* background-color: blue; */
+  padding: 7px 10px;
+  margin-right: 3rem;
+  /* font-size: 12px; */
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* Modal button */
+.modal-btn {
+  background-color: var(--purple);
+  color: white;
+}
+
+.modal-btn:hover {
+  background-color: var(--purple);
+  color: white;
+}
+
+.modal-btn:focus {
+  background-color: var(--purple);
+  color: white;
+}
+
+.modal-btn-light {
+  background-color: rgb(247, 239, 239);
+  color: black;
+}
+
+.modal-btn-light:hover {
+  background-color: rgb(247, 239, 239);
+  color: black;
+}
+
+.accordion-bar:hover {
+  color: var(--purple);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* radio button css by codepen */
+/* Shaibaz Responsive Css */
+@media screen and (max-width: 500px) and (min-width: 380px) {
+  .table-sm th {
+    padding: 0.6rem;
+  }
+
+  .table-sm td {
+    padding: 0.6rem;
+  }
+  .table{
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+  }
+  .pt-3{
+    padding-top: 0.5rem !important;
+  }
+  .col-6{
+    max-width: 33%;
+  }
+  .labelcheckbox{
+    font-size: 0.9rem !important;
+  }
+  .btn-default{
+    font-size: 1rem;
+    padding: 0.25rem 1.2rem;
+  }
+  .col-4{
+    max-width: 25%;
+  }
+  .mb-3, .mt-3 {
+    margin: 0.45rem 0rem !important;
+  }
+  .text-danger{
+    font-size: 0.85rem !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .border-left {
+    border-left: 6px solid red !important;
+  }
+
+  .text-1 {
+    font-size: 14px !important;
+    /* color: rgb(193, 196, 24); */
+  }
+
+  .text-2 {
+    font-size: 16px;
+    /* color: rgb(255, 0, 157); */
+  }
+
+  .text-3 {
+    font-size: 12px !important;
+    color: #48494a !important;
+    font-weight: normal !important;
+  }
+  /* defined by shaibaz */
+  .table-sm th {
+    padding: 0.5rem;
+  }
+
+  .table-sm td {
+    padding: 0.5rem;
+  }
+  .table{
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+  }
+  .pt-3{
+    padding-top: 0.5rem !important;
+  }
+  .col-6{
+    max-width: 33%;
+  }
+  .btn-default{
+    font-size: 1rem;
+    padding: 0.25rem 1.2rem;
+  }
+  .col-4{
+    max-width: 25%;
+  }
+  .mb-3, .mt-3 {
+    margin: 0.45rem 0rem !important;
+  }
+  .text-danger{
+    font-size: 0.85rem !important;
+  }
+  .labelcheckbox{
+    font-size: 0.9rem !important;
+  }
+  /* end */
+}
+
+@media screen and (min-width: 780px){
+  .table-sm th {
+    padding: 1rem;
+  }
+
+  .table-sm td {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 330px){
+  h1{
+    font-size: 1.8rem;
+  }
+  .labelcheckbox{
+    font-size: 0.8rem !important;
+  }
+}
